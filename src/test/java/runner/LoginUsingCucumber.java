@@ -6,8 +6,8 @@ import com.leafBot.testng.api.base.Annotations;
 
 import cucumber.api.CucumberOptions;
 
-@CucumberOptions(features="src/test/java/features/Login.Feature",
-				 glue={"com/leafBot"}, 
+@CucumberOptions(features= {"src/test/java/features/Login.Feature","src/test/java/features/Login.Feature"},
+				 glue={"leafBot"}, 
 				 monochrome=true)
 
 public class LoginUsingCucumber extends Annotations{
